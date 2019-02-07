@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 # Arduino Projects Page
 > This document includes instructions to interface CO2Meter Sensors with Arduino UNO and MEGA Processor Boards.
+=======
+# Title
+> some message
+>>>>>>> parent of 220680e... Update README.md
 
 
 ## Sensors
