@@ -54,7 +54,7 @@ There are four main connectors on the S11 Development Kit, each serving a differ
     * 5: VDDIO - The S11 Sensor requires a reference voltage for the Communications.  To use the same voltage as what is supplied to power the S11 Sensor, keep the switch function up, to use a different IO Voltage supplied on the 10-pin Connector, push the switch down.  For standard USB Connection, leave this switch function up.
     * 6: Enable - The S11 Sensor has the ability to turn on and off the Sensor element to save power.  To have the Sensor always enabled and taking measurements, slide the switch function up.  If you will have a microcontroller connected to the 10-pin microcontroller connector and enabling and disabling the sensor, slide the switch function down.
 
-    <img src="./media/switch_all_up.jpg" width="800">
+      <img src="./media/switch_all_up.jpg" width="800">
 
   - 1.2.2 Typical Switch Settings
     - USB
