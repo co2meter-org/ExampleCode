@@ -1,6 +1,6 @@
 # S11 Development Kit
 
-![alt text](U:\Documentation\Projects\S11_Development_Kit\plugged_in.jpg "GasLab Selection for S11 Development Kit connecting with USB")
+![alt text](./media/plugged_in.jpg "GasLab Selection for S11 Development Kit connecting with USB")
 
 ## Section 1: Learning About Your Development Kit
 
