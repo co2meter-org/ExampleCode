@@ -1,6 +1,6 @@
 # S11 Development Kit
 
-![alt text](./media/plugged_in.jpg "GasLab Selection for S11 Development Kit connecting with USB")
+<img src="./media/plugged_in.jpg" width="800">
 
 ## Section 1: Learning About Your Development Kit
 
