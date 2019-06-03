@@ -83,7 +83,7 @@ There are four main connectors on the S11 Development Kit, each serving a differ
 1. Connect a micro USB Cable from your PC to the Development Kit
 > Ensure the Switch Setting are Correct.  Refer to section 1.2.2 for more help
 
-    <img src="./media/plugged_in.jpg" width="800">
+  <img src="./media/plugged_in.jpg" width="800">
 
 2. Open GasLab on your PC, select the COM Port, use FTDI as the Kit, and select Senseair / S-11 for your Series / Model
 
