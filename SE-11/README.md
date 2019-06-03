@@ -33,7 +33,7 @@ There are four main connectors on the S11 Development Kit, each serving a differ
   - 1.1.3 Microcontroller and GasBox Connector
     > 10-pin breakout connector to easily connect your S11 Sensor to the GasBox, Arduino, Raspberry Pi, or other UART / I2C microcontroller.
 
-    ![alt text](U:\Documentation\Projects\S11_Development_Kit\connector.jpg "GasLab Selection for S11 Development Kit connecting with USB")
+    ![alt text](./media/connector.jpg "GasLab Selection for S11 Development Kit connecting with USB")
 
     1. Ground
     2. Enable
@@ -54,28 +54,28 @@ There are four main connectors on the S11 Development Kit, each serving a differ
     * 5: VDDIO - The S11 Sensor requires a reference voltage for the Communications.  To use the same voltage as what is supplied to power the S11 Sensor, keep the switch function up, to use a different IO Voltage supplied on the 10-pin Connector, push the switch down.  For standard USB Connection, leave this switch function up.
     * 6: Enable - The S11 Sensor has the ability to turn on and off the Sensor element to save power.  To have the Sensor always enabled and taking measurements, slide the switch function up.  If you will have a microcontroller connected to the 10-pin microcontroller connector and enabling and disabling the sensor, slide the switch function down.
 
-    ![alt text](U:\Documentation\Projects\S11_Development_Kit\switch_all_up.jpg "GasLab Selection for S11 Development Kit connecting with USB")
+    ![alt text](./media/switch_all_up.jpg "GasLab Selection for S11 Development Kit connecting with USB")
 
   - 1.2.2 Typical Switch Settings
     - USB
       > To use via USB UART with GasLab or any other terminal application, keep all slide switch functions in the up position
 
-      ![alt text](U:\Documentation\Projects\S11_Development_Kit\switch_all_up.jpg "GasLab Selection for S11 Development Kit connecting with USB")
+      ![alt text](./media/switch_all_up.jpg "GasLab Selection for S11 Development Kit connecting with USB")
 
     - Simple Microcontroller UART
       > To simply connect to a microcontroller via UART, slide switch functions 1 and 2 down, and leave the rest of the switch functions in the up position
 
-      ![alt text](U:\Documentation\Projects\S11_Development_Kit\pinout_uart.jpg "GasLab Selection for S11 Development Kit connecting with USB")
+      ![alt text](./media/pinout_uart.jpg "GasLab Selection for S11 Development Kit connecting with USB")
 
     - Simple Microcontroller I<sup>2</sup>C with no Pull Up Circuit
       > To attach to a microcontroller via I<sup>2</sup>C, we've added the convenience of 4.7kOhm pull up resistors.  This way you can connect your I<sup>2</sup>C wiring directly without a circuit in between.  To use this function, slide switch functions 1, 2, 3, and 4 to the down position, leave switch functions 5 and 6 in the up position
 
-      ![alt text](U:\Documentation\Projects\S11_Development_Kit\switch_i2c.jpg "GasLab Selection for S11 Development Kit connecting with USB")
+      ![alt text](./media/switch_i2c.jpg "GasLab Selection for S11 Development Kit connecting with USB")
 
     - Full Microcontroller UART Support
       > To attach a microcontroller that will control the S11 Sensor being integrated into a system, slide switch functions 1, 2, 5, and 6 to the down position, and slide switch functions 3 and 4 to the up position
 
-      ![alt text](U:\Documentation\Projects\S11_Development_Kit\uc_switch.jpg "GasLab Selection for S11 Development Kit connecting with USB")
+      ![alt text](./media/uc_switch.jpg "GasLab Selection for S11 Development Kit connecting with USB")
 
 
 ## Section 2: Connecting to GasLab with USB
@@ -83,20 +83,20 @@ There are four main connectors on the S11 Development Kit, each serving a differ
 1. Connect a micro USB Cable from your PC to the Development Kit
 > Ensure the Switch Setting are Correct.  Refer to section 1.2.2 for more help
 
-![alt text](U:\Documentation\Projects\S11_Development_Kit\plugged_in.jpg "GasLab Selection for S11 Development Kit connecting with USB")
+![alt text](./media/plugged_in.jpg "GasLab Selection for S11 Development Kit connecting with USB")
 
 2. Open GasLab on your PC, select the COM Port, use FTDI as the Kit, and select Senseair / S-11 for your Series / Model
 
-![alt text](U:\Documentation\Projects\S11_Development_Kit\GasLab_USB_Selected.PNG "GasLab Selection for S11 Development Kit connecting with USB")
+![alt text](./media/GasLab_USB_Selected.PNG "GasLab Selection for S11 Development Kit connecting with USB")
 
 3. Click the Connect Button and click Read CO2 to get readings
 
-![alt text](U:\Documentation\Projects\S11_Development_Kit\GasLab_USB_Read.PNG)
+![alt text](./media/GasLab_USB_Read.PNG)
 
 
 ## Section 3: Connecting to Arduino
 
-![alt text](U:\Documentation\Projects\S11_Development_Kit\Arduino_UART.png)
+![alt text](./media/Arduino_UART.png)
 > Wiring Diagram for UART connections to Arduino
 
 ```cpp
@@ -146,7 +146,7 @@ void loop() {
 }
 ```
 
-![alt text](U:\Documentation\Projects\S11_Development_Kit\Arduino_I2C.png)
+![alt text](./media/Arduino_I2C.png)
 > Wiring Diagram for UART connections to Arduino
 
 ```cpp
@@ -241,7 +241,7 @@ void loop() {
 
 ## Section 4: Connecting to Raspberry Pi
 
-![alt text](U:\Documentation\Projects\S11_Development_Kit\RPi_UART.png)
+![alt text](./media/RPi_UART.png)
 > Wiring Diagram for UART connections to Raspberry Pi
 
 ```python
