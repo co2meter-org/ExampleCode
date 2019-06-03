@@ -1,6 +1,6 @@
 # S11 Development Kit
 
-    <img src="./media/plugged_in.jpg" width="800">
+  <img src="./media/plugged_in.jpg" width="800">
 
 ## Section 1: Learning About Your Development Kit
 
@@ -9,7 +9,7 @@ There are four main connectors on the S11 Development Kit, each serving a differ
   - 1.1.1 Sensor Connectors
   > 4-pin and 5-pin connectors to mount your S11 Sensor
 
-    <img src="./media/sensor_connector.jpg" width="800">
+  <img src="./media/sensor_connector.jpg" width="800">
 
   - 4-pin Connector
     1. Enable - Sensor Enable
