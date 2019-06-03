@@ -9,7 +9,7 @@ There are four main connectors on the S11 Development Kit, each serving a differ
   - 1.1.1 Sensor Connectors
   > 4-pin and 5-pin connectors to mount your S11 Sensor
 
-  ![alt text](U:\Documentation\Projects\S11_Development_Kit\sensor_connector.jpg "GasLab Selection for S11 Development Kit connecting with USB")
+  ![alt text](./media/sensor_connector.jpg "GasLab Selection for S11 Development Kit connecting with USB")
 
   - 4-pin Connector
     1. Enable - Sensor Enable
