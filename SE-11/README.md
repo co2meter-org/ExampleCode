@@ -28,12 +28,12 @@ There are four main connectors on the S11 Development Kit, each serving a differ
   - 1.1.2 USB Connector
     >The Micro USB Connector allows you to connect your Development Kit to your PC and appears as an FTDI Cable.  You can then use your favorite application(GasLab, TeraTerm, etc.) to communicate with the S11 Sensor via UART.  
 
-    ![alt text](./media/usb_conn.jpg "GasLab Selection for S11 Development Kit connecting with USB")
+    <img src="./media/usb_conn.jpg" width="800">
 
   - 1.1.3 Microcontroller and GasBox Connector
     > 10-pin breakout connector to easily connect your S11 Sensor to the GasBox, Arduino, Raspberry Pi, or other UART / I2C microcontroller.
 
-    ![alt text](./media/connector.jpg "GasLab Selection for S11 Development Kit connecting with USB")
+    <img src="./media/connector.jpg" width="800">
 
     1. Ground
     2. Enable
