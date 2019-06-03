@@ -1,6 +1,6 @@
 # S11 Development Kit
 
-<img src="./media/plugged_in.jpg" width="800">
+    <img src="./media/plugged_in.jpg" width="800">
 
 ## Section 1: Learning About Your Development Kit
 
@@ -9,7 +9,7 @@ There are four main connectors on the S11 Development Kit, each serving a differ
   - 1.1.1 Sensor Connectors
   > 4-pin and 5-pin connectors to mount your S11 Sensor
 
-  <img src="./media/sensor_connector.jpg" width="800">
+    <img src="./media/sensor_connector.jpg" width="800">
 
   - 4-pin Connector
     1. Enable - Sensor Enable
@@ -54,28 +54,28 @@ There are four main connectors on the S11 Development Kit, each serving a differ
     * 5: VDDIO - The S11 Sensor requires a reference voltage for the Communications.  To use the same voltage as what is supplied to power the S11 Sensor, keep the switch function up, to use a different IO Voltage supplied on the 10-pin Connector, push the switch down.  For standard USB Connection, leave this switch function up.
     * 6: Enable - The S11 Sensor has the ability to turn on and off the Sensor element to save power.  To have the Sensor always enabled and taking measurements, slide the switch function up.  If you will have a microcontroller connected to the 10-pin microcontroller connector and enabling and disabling the sensor, slide the switch function down.
 
-    <img src="./media/switch_all_up.jpg" width="800">
+  <img src="./media/switch_all_up.jpg" width="800">
 
   - 1.2.2 Typical Switch Settings
     - USB
       > To use via USB UART with GasLab or any other terminal application, keep all slide switch functions in the up position
 
-    <img src="./media/switch_all_up.jpg" width="800">
+  <img src="./media/switch_all_up.jpg" width="800">
 
     - Simple Microcontroller UART
       > To simply connect to a microcontroller via UART, slide switch functions 1 and 2 down, and leave the rest of the switch functions in the up position
 
-    <img src="./media/pinout_uart.jpg" width="800">
+  <img src="./media/pinout_uart.jpg" width="800">
 
     - Simple Microcontroller I<sup>2</sup>C with no Pull Up Circuit
       > To attach to a microcontroller via I<sup>2</sup>C, we've added the convenience of 4.7kOhm pull up resistors.  This way you can connect your I<sup>2</sup>C wiring directly without a circuit in between.  To use this function, slide switch functions 1, 2, 3, and 4 to the down position, leave switch functions 5 and 6 in the up position
 
-    <img src="./media/switch_i2c.jpg" width="800">
+  <img src="./media/switch_i2c.jpg" width="800">
 
     - Full Microcontroller UART Support
       > To attach a microcontroller that will control the S11 Sensor being integrated into a system, slide switch functions 1, 2, 5, and 6 to the down position, and slide switch functions 3 and 4 to the up position
 
-    <img src="./media/uc_switch.jpg" width="800">
+  <img src="./media/uc_switch.jpg" width="800">
 
 
 ## Section 2: Connecting to GasLab with USB
@@ -83,20 +83,20 @@ There are four main connectors on the S11 Development Kit, each serving a differ
 1. Connect a micro USB Cable from your PC to the Development Kit
 > Ensure the Switch Setting are Correct.  Refer to section 1.2.2 for more help
 
-<img src="./media/plugged_in.jpg" width="800">
+  <img src="./media/plugged_in.jpg" width="800">
 
 2. Open GasLab on your PC, select the COM Port, use FTDI as the Kit, and select Senseair / S-11 for your Series / Model
 
-<img src="./media/GasLab_USB_Selected.PNG" width="800">
+  <img src="./media/GasLab_USB_Selected.PNG" width="800">
 
 3. Click the Connect Button and click Read CO2 to get readings
 
-<img src="./media/GasLab_USB_Read.PNG" width="800">
+  <img src="./media/GasLab_USB_Read.PNG" width="800">
 
 
 ## Section 3: Connecting to Arduino
 
-<img src="./media/arduino_uart.PNG" width="800">
+  <img src="./media/arduino_uart.PNG" width="800">
 > Wiring Diagram for UART connections to Arduino
 
 ```cpp
@@ -146,7 +146,7 @@ void loop() {
 }
 ```
 
-<img src="./media/arduino_i2c.PNG" width="800">
+  <img src="./media/arduino_i2c.PNG" width="800">
 > Wiring Diagram for UART connections to Arduino
 
 ```cpp
@@ -241,7 +241,7 @@ void loop() {
 
 ## Section 4: Connecting to Raspberry Pi
 
-<img src="./media/RPi_UART.PNG" width="800">
+  <img src="./media/RPi_UART.PNG" width="800">
 > Wiring Diagram for UART connections to Raspberry Pi
 
 ```python
