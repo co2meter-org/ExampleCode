@@ -147,7 +147,7 @@ void loop() {
 ```
 
   <img src="./media/arduino_i2c.PNG" width="800">
-> Wiring Diagram for UART connections to Arduino
+> Wiring Diagram for I2C connections to Arduino
 
 ```cpp
 #include <Wire.h>
