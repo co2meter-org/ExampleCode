@@ -96,7 +96,7 @@ There are four main connectors on the S11 Development Kit, each serving a differ
 
 ## Section 3: Connecting to Arduino
 
-![alt text](./media/Arduino_UART.pdf)
+![alt text](./media/arduino_uart.png)
 > Wiring Diagram for UART connections to Arduino
 
 ```cpp
@@ -241,7 +241,7 @@ void loop() {
 
 ## Section 4: Connecting to Raspberry Pi
 
-![alt text](./media/RPi_UART.pdf)
+![alt text](./media/RPi_UART.PNG)
 > Wiring Diagram for UART connections to Raspberry Pi
 
 ```python
