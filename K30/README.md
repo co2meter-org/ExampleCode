@@ -23,7 +23,6 @@ Plug the USB Cable into the USB Port of a Raspberry Pi.
 Run the following Python Script.
 
 import serial
-
 import time
 
 ser = serial.Serial("/dev/ttyUSB0",baudrate =9600,timeout = .5)
