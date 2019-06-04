@@ -22,17 +22,14 @@ Download our FREE Gaslab Software from this link
 Plug the USB Cable into the USB Port of a Raspberry Pi.
 Run the following Python Script.
 
-import serial
-import time
+ import serial
+ import time
 
-ser = serial.Serial("/dev/ttyUSB0",baudrate =9600,timeout = .5)
-print "K30 Development Kit to Raspberry Pi3\n"
-ser.flushInput()
-time.sleep(1)
+ ser = serial.Serial("/dev/ttyUSB0",baudrate =9600,timeout = .5)
+ ser.flushInput()
+ time.sleep(1)
 
-
-while True:
-
+ while True:
 
     ser.flushInput()
     ser.write("\xFE\x44\x00\x08\x02\x9F\x25")
