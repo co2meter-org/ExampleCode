@@ -3,19 +3,19 @@
 >image
 
 ## Section 1: Operating Your K30 Sensor
-The K30 Sensor requires a power source of 5-14 Volts DC at 300mA.
-The K30 Sensor can communicate via UART, I2C and Analog Output Voltage.  The K30 can be ordered with the optional CM-0024 Development Kit.
+The K30 Sensor can communicate via UART, I2C and Analog Output Voltage.  
 
-- ### 1.1 CM-0024 Development Kit
-The CM-0024 Development Kit includes a USB cable to connect the Sensor to a computer USB Port.
+- ### 1.1 CM-0024 K30 Sensor Development Kit
+The CM-0024 Development Kit includes a USB cable wired to the K30 Sensor.  Simply plug the Sensor into a USB Port and run the software.
 
-- ### 1.1.1 Connecting to a Windows PC with Gaslab Software
-CO2meter offers Free Gaslab Software that can be downloaded to a Windows 7 ot 10 computer.  Gaslab allows users to read sensor values, calibrate sensors, log data, create spreadsheets and print graphs.
+- ### 1.1.1 Connecting a CM-0024 to Gaslab Software
+CO2meter offers Free Gaslab Software that can be downloaded to a Windows 7 ot 10 computer.  
+Gaslab allows users to read sensor values, calibrate sensors, log data, create spreadsheets and print graphs.
 
 Download our FREE Gaslab Software from this link
 >link
 
-- ### 1.1.2 Connecting to a Raspberry Pi with python code.
+- ### 1.1.2 Connecting a CM-0024 to Raspberry Pi with Python Code
 
 Plug the USB Cable into the USB Port of a Raspberry Pi.
 Run the following Python Script.
