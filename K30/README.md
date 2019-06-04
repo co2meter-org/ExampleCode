@@ -25,6 +25,7 @@ Run the following Python Script.
 Python app to run a K30 Sensor Development Kit 01/25/2018 JTH
 
 import serial
+
 import time
 
 ser = serial.Serial("/dev/ttyUSB0",baudrate =9600,timeout = .5)
