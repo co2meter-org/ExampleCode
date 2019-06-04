@@ -22,6 +22,7 @@ Download our FREE Gaslab Software from this link
 Plug the USB Cable into the USB Port of a Raspberry Pi.
 Run the following Python Script.
 
+#Python app to run a K30 Sensor Development Kit 01/25/2018 JTH
 import serial
 import time
 
@@ -30,7 +31,9 @@ print "K30 Development Kit to Raspberry Pi3\n"
 ser.flushInput()
 time.sleep(1)
 
+
 while True:
+
 
     ser.flushInput()
     ser.write("\xFE\x44\x00\x08\x02\x9F\x25")
