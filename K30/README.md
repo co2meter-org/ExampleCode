@@ -19,15 +19,20 @@ Download our FREE Gaslab Software from this link
 
 - ### 1.1.2 Connecting a CM-0024 to Raspberry Pi with Python Code
 
--Plug the USB Cable into the USB Port of a Raspberry Pi.
--Run the following Python Script.
+Plug the USB Cable into the USB Port of a Raspberry Pi.
 
--import serial
--import time
+Run the following Python Script.
 
--ser = serial.Serial("/dev/ttyUSB0",baudrate =9600,timeout = .5)
--ser.flushInput()
--time.sleep(1)
+
+import serial
+
+import time
+
+ser = serial.Serial("/dev/ttyUSB0",baudrate =9600,timeout = .5)
+
+ser.flushInput()
+
+time.sleep(1)
 
 while True:
 
