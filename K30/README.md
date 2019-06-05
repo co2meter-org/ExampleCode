@@ -26,8 +26,11 @@ import serial
 import time
 
 ser = serial.Serial("/dev/ttyUSB0",baudrate =9600,timeout = .5)
+
 print "K30 Development Kit to Raspberry Pi3\n"
+
 ser.flushInput()
+
 time.sleep(1)
 
 
