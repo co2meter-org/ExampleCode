@@ -19,8 +19,7 @@ Download our FREE Gaslab Software from this link
 
 - ### 1.1.2 Connecting a CM-0024 to Raspberry Pi with Python Code
 
-- Plug the USB Cable into the USB Port of a Raspberry Pi
-- Run the following Python Script.
+Plug the USB Cable into the USB Port of a Raspberry Piand run the following Python Script.
 
 
 import serial
