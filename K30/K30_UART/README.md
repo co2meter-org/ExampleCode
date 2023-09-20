@@ -5,7 +5,7 @@
 
 2. Check that your Arduino is connected to a USB port and the on‐board LED indicates power is on.
 
-3. Download this git repo or click this link to download the *.imo file: http://www.co2meters.com/Documentation/AppNotes/AN102-K30-Sensor-Arduino-I2C.zip
+3. Download this git repo or click this link to download the *.ino file: http://www.co2meters.com/Documentation/AppNotes/AN102-K30-Sensor-Arduino-I2C.zip
 
 4. Save the file where you will remember it (if you want to use it later).
 
