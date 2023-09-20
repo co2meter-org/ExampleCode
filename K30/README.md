@@ -24,7 +24,7 @@ The CM-0024 Development Kit is compatible with many Raspberry Pi computers.
 Plug in the USB Cable into the Raspberry Pi and run the following Python Script.  
 No wiring, no soldering, no mistakes... just Plug & Play.
 
-
+```
 import serial
 
 import time
@@ -37,7 +37,6 @@ ser.flushInput()
 
 time.sleep(1)
 
-
 while True:
 
     ser.flushInput()
@@ -49,7 +48,7 @@ while True:
     co2 = (high*256) + low
     print " CO2 = " +str(co2)
     time.sleep(.1)
-
+```
 
 - ### 1.2 K30 Sensor UART wired to Raspberry Pi GPIO Pins.
 The K30 Sensor UART connections can be wired to Raspberry Pi GPIO Pins.
