@@ -11,12 +11,12 @@
 
 5. Double click the file or right click and press 'Open in Arduino IDE' to open the project.
 
-6. You may see a prompt that says: 
-![Alt text](image-1.png)
+6. You may see a prompt that says:
+![Alt text](create_sketch.png)
 If you do, press 'OK.'
 
 7. Select your board in the top left if it was not done for you. If you cannot select your Arduino board, ensure it is plugged into your computer.
-![Alt text](image-3.png)
+![Alt text](arduino_ide.png)
 
 8. Press the checkmark in the top right to compile the code.
 
