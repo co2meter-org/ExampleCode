@@ -2,7 +2,7 @@
 > This document includes instructions to interface CO2Meter Sensors with Arduino, Raspberry Pi and other common processors
 
 
-## CO2 Sensors
+## CO2 Sensors up
 >CO2Meter.com offers a variety of sensors.
 Each Sensor is optimized for a specific application.
 Please choose an appropriate sensor for your project requirements.
