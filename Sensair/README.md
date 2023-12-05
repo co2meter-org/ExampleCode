@@ -2,6 +2,11 @@
 
 >image
 
+### Applicable Sensors
+- K30 [030-8-0006](https://www.co2meter.com/collections/co2-sensors/products/k-30-co2-sensor-module)
+- S-8 1% [004-0-0013](https://www.co2meter.com/collections/1-percent-co2-sensor/products/s8-miniature-co2-sensor-1)
+- S-8 5% [004-0-0071](https://www.co2meter.com/collections/5-percent-co2-sensor/products/s8-miniature-5-co2-sensor)
+
 ## Section 1: Operating Your K30 Sensor
 The K30 Sensor can be purchased as a bare sensor or as a CM-0024 Sensor Development Kit.  
 As a bare Sensor, the K30  can communicate via UART, I2C and Analog Output Voltage.  
