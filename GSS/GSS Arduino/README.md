@@ -1,3 +1,25 @@
+### Interface Arduino with GSS Sensors
+- CozIR-A 2,000 [GC-0010](https://www.co2meter.com/collections/sensors/products/cozir-2000-ppm-co2-sensor)
+- CozIR-A 5,000 [GC-0011](https://www.co2meter.com/collections/sensors/products/cozir-ambient-5000-ppm-co2-sensor)
+- CozIR-A 10,000 [GC-0012](https://www.co2meter.com/collections/sensors/products/cozir-ambient-10000-ppm-co2-sensor)
+- CozIR-A 2,000RHT [GC-0020](https://www.co2meter.com/collections/sensors/products/cozir-co2-temperature-humidity-sensor)
+- CozIR-A 10,000RHT [GC-0022](https://www.co2meter.com/collections/sensors/products/cozir-10000-ppm-co2-temperature-humidity-sensor)
+- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
+- GC-0007 [GC-0007](https://www.co2meter.com/collections/sensors/products/cozir-wr-60-percent-co2-sensor)
+- GC-0015 [GC-0015](https://www.co2meter.com/collections/sensors/products/cozir-wr-5-percent-co2-sensor)
+- GC-0016 [GC-0016](https://www.co2meter.com/collections/sensors/products/cozir-100-percent-co2-sensor)
+- GC-0017 [GC-0017](https://www.co2meter.com/collections/sensors/products/sprintir-wr-20-pct-co2-sensor)
+- GC-0018 [GC-0018](https://www.co2meter.com/collections/sensors/products/sprintir-100-percent-co2-sensor)
+- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
+- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
+- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
+- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
+- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
+- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
+- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
+- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
+
+
 ## Creating an Arduino Project
 
 1. Wire up your device as shown:
