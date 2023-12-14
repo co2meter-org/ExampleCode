@@ -10,14 +10,14 @@
 - GC-0016 [GC-0016](https://www.co2meter.com/collections/sensors/products/cozir-100-percent-co2-sensor)
 - GC-0017 [GC-0017](https://www.co2meter.com/collections/sensors/products/sprintir-wr-20-pct-co2-sensor)
 - GC-0018 [GC-0018](https://www.co2meter.com/collections/sensors/products/sprintir-100-percent-co2-sensor)
-- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
-- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
-- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
-- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
-- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
-- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
-- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
-- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
+- Cozir-LP [GC-0027](https://www.co2meter.com/collections/sensors/products/cozir-lp-ambient-air-co2-sensor)
+- Cozir-LP2 [GC-0034](https://www.co2meter.com/collections/sensors/products/copy-of-cozir-lp-miniature-5-000ppm-co2-sensor)
+- SprintIR-6S-5 [GC-0028](https://www.co2meter.com/collections/sensors/products/sprintir6s-5-co2-smart-sensor)
+- SprintIR-6S-20 [GC-0029](https://www.co2meter.com/collections/sensors/products/sprintir6s-20-co2-smart-sensor)
+- SprintIR-6S-100 [GC-0030](https://www.co2meter.com/collections/sensors/products/sprintir6s-100-co2-smart-sensor)
+- ExplorIR-M-5 [GC-0024](https://www.co2meter.com/collections/sensors/products/minir-co2-sensor)
+- ExplorIR-M-20 [GC-0026](https://www.co2meter.com/collections/sensors/products/explorir-20-co2-smart-led-sensor)
+- ExplorIR-M-100 [GC-0025](https://www.co2meter.com/collections/sensors/products/explorir-100-pct-co2-sensor)
 
 
 ## Creating an Arduino Project
