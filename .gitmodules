@@ -1,0 +1,3 @@
+[submodule "SE-11/Sunrise-Examples---Arduino"]
+	path = SE-11/Sunrise-Examples---Arduino
+	url = https://github.com/Senseair-AB/Sunrise-Examples---Arduino
