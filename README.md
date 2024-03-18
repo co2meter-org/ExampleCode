@@ -1,10 +1,63 @@
 # CO2Meter Example Code
 
 ### Table of Contents
+- [Downloading Repository](#downloading-the-repository)
+- [Download Zip](#download-zip)
+- [Clone with GitHub Desktop](#github-desktop)
+- [Clone with Windows Git Bash Terminal](#windows-git-bash)
+- [Clone with Mac or Linux Terminal](#mac--linux-terminal)
 - [CM-200 Sensor Development Board](#cm-200-sensor-development-board)
 - [CM-200 Compatible Sensors](#compatible-sensors)
 - [Getting to know your CM-200 Sensor Development Kit](#getting-to-know-your-cm-200-sensor-development-kit)
 - [Using CM-200 with GasLab](#using-cm-200-with-gaslab)
+
+# Downloading the Repository
+To download and use the repository and code, you can either download the zip or clone the repository.  Below are the steps for each.
+
+## Download Zip
+### 1. Near the top right of the page, click on the green "Code" button
+![click code](./assets/code-button.png)
+
+### 2. Click on the "Download Zip" button in the popup
+![download](./assets/download-zip.png)
+
+### 3. Extract the Zip file. The files can be extraced anywhere on a local PC including Downloads, Documents, or Desktop.
+
+## Clone Repository
+There are multiple ways to clone this repository.  This README will cover the most popular.
+
+## GitHub Desktop
+### 1. Download and Install [GitHub Desktop](https://desktop.github.com/)
+
+### 2. Near the top right of the page, click on the green "Code" button
+![click code](./assets/code-button.png)
+
+### 3. Click on the Open with GitHub Desktop button in the options
+![download](./assets/download-zip.png)
+
+### 4. Click on Open GitHub Desktop button in the popup
+![open](./assets/clone-open-desktop.png)
+
+### 5. In GitHub Desktop, click the "Clone" button
+![clone](./assets/clone-button.png)
+
+## Windows Git Bash
+### 1. Download and install [Git Bash](https://gitforwindows.org/) for Windows
+
+### 2. Change to the directory where the repository will be downloaded / cloned
+
+### 3. Copy and paste this line into the terminal
+```
+git clone --recursive https://github.com/co2meter-org/ExampleCode.git
+```
+
+## Mac / Linux Terminal
+### 1. Open a terminal and change to the directory where the repository will be downloaded / cloned
+
+### 2. Copy and paste this line into the terminal
+```
+git clone --recursive https://github.com/co2meter-org/ExampleCode.git
+```
 
 # CM-200 Sensor Development Board
 The CM-200 Sensor Development Board is a kit developed by CO2Meter to help customers, hackers, and students to go from concept to product as quickly as possible.  We've provided a PCB that can interface with our free [GasLab](https://www.co2meter.com/pages/downloads) or any terminal application to evaluate sensors and view the communication protocols.  Using the CM-200 as an Arduino Shield and the example code provided in this repository can rapidly get a prototype running for interfacing our most popular sensors with Arduino Uno and Arduino Mega.  Also available, use the CM-200 as a Raspberry Pi Hat to prototype using the Raspberry Pi ecosystem.  Finally, users can also develop production ready code with the onboard STM32WB55, with available BLE, USB, User LEDs, User Buttons, and multiple communication protocols.
