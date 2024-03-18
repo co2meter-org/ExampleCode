@@ -4,6 +4,7 @@
 - [CM-200 Sensor Development Board](#cm-200-sensor-development-board)
 - [CM-200 Compatible Sensors](#compatible-sensors)
 - [Getting to know your CM-200 Sensor Development Kit](#getting-to-know-your-cm-200-sensor-development-kit)
+- [Using CM-200 with GasLab](#using-cm-200-with-gaslab)
 
 # CM-200 Sensor Development Board
 The CM-200 Sensor Development Board is a kit developed by CO2Meter to help customers, hackers, and students to go from concept to product as quickly as possible.  We've provided a PCB that can interface with our free [GasLab](https://www.co2meter.com/pages/downloads) or any terminal application to evaluate sensors and view the communication protocols.  Using the CM-200 as an Arduino Shield and the example code provided in this repository can rapidly get a prototype running for interfacing our most popular sensors with Arduino Uno and Arduino Mega.  Also available, use the CM-200 as a Raspberry Pi Hat to prototype using the Raspberry Pi ecosystem.  Finally, users can also develop production ready code with the onboard STM32WB55, with available BLE, USB, User LEDs, User Buttons, and multiple communication protocols.
@@ -134,3 +135,40 @@ Pin sockets for inserting a [GSS LP or LP2 Sensor](https://www.co2meter.com/coll
 #### 9. STM32 Programming Pins
 Designed for use with [TC2030-CTX-NL-STDC14](https://www.tag-connect.com/product/tc2030-ctx-nl-stdc14-for-use-with-stm32-processors-with-stlink-v3) and [STLINK-V3MINIE](https://www.digikey.com/en/products/detail/stmicroelectronics/STLINK-V3MINIE/16284301?s=N4IgTCBcDaIMoBUAyBJAcgaQLQDUDMAsuigKIgC6AvkA).
 
+## Using CM-200 with GasLab
+> Quick Steps to evaluate sensors with the CM-200 Sensor Development Kit and a compatible Windows PC
+
+### 1. Download and Install the [GasLab Software](https://www.co2meter.com/pages/downloads)
+> https://www.co2meter.com/pages/downloads
+
+![GasLab Download](./assets/gaslab-download.png)
+
+### 2. Exit the GasLab Software and Unplug the USB Cable
+
+### 3. Start the GasLab Software. Select the port dropdown in the lower left corner.
+![GasLab Com Port](./assets/gaslab-com-port.png)
+
+### 4. Plug the USB cable into your PC. A new COM Port number should appear.
+> If no COM Port appears, go to the [troubleshooting](#gaslab-troubleshooting) section
+
+### 5. Select the new COM Port
+
+### 6. Select your sensor model from the Product Dropdown list.
+![GasLab connect](./assets/gaslab-connect-buttons.png)
+
+### 7. Click Connect
+![GasLab-k30](./assets/gaslab-k30.png)
+
+### 8. Click any "Read" button to take a sensor reading.
+> See the [manual](https://cdn.shopify.com/s/files/1/0019/5952/files/Manual-GasLab.pdf?v=1683657836) for additional options or to begin data logging
+
+![GasLab Read Buttons](./assets/gaslab-read-buttons.png)
+
+## GasLab Troubleshooting
+
+### COM Port does not appear
+#### Windows 7
+Follow this link from FTDI: https://www.ftdichip.com/Support/Documents/AppNotes/AN_119_FTDI_Drivers_Installation_Guide_for_Windows7.pdf to ensure proper installation
+
+#### Windows 10
+Follow this link from FTDI: https://www.ftdichip.com/Support/Documents/InstallGuides/AN_396%20FTDI%20Drivers%20Installation%20Guide%20for%20Windows%2010.pdf to ensure proper installation
