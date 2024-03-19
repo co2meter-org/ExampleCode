@@ -1,70 +1,59 @@
-# K30 1% CO2 Sensor
+# Senseair K-Series and Miniature Sensors
 
->image
+## Table of Contents
+- [CM-200 Sensor Development Kit](#cm-200-sensor-development-kit)
 
-### Applicable Sensors
-- K30 [030-8-0006](https://www.co2meter.com/collections/co2-sensors/products/k-30-co2-sensor-module)
-- S-8 1% [004-0-0013](https://www.co2meter.com/collections/1-percent-co2-sensor/products/s8-miniature-co2-sensor-1)
-- S-8 5% [004-0-0071](https://www.co2meter.com/collections/5-percent-co2-sensor/products/s8-miniature-5-co2-sensor)
+# CM-200 Sensor Development Kit
 
-## Section 1: Operating Your K30 Sensor
-The K30 Sensor can be purchased as a bare sensor or as a CM-0024 Sensor Development Kit.  
-As a bare Sensor, the K30  can communicate via UART, I2C and Analog Output Voltage.  
-The CM-0024 K30 Sensor Development Kit consists of a K30 Sensor pre-wired to a USB cable with mating connectors.
+## Materials Needed
+- CM-200 Gas Sensor Development Kit
+- Senseair Sensor
+- Press-fit male header pins or M2.5 mounting screws
+- USB Type-C Cable
 
-- ### 1.1 CM-0024 K30 Sensor Development Kit
-The CM-0024 K30 Sensor Development Kit is the fastest and easiest way to start using your K30 Sensor.  It includes a USB cable to plug the Sensor into a computer or Raspberry Pi.
+![materials](./media/cm200-senseair-materials.jpg)
 
->image
+For K-Series sensors, use the mounting screws and align with the pogo pins.  For Senseair miniature series sensors, use the Press-Fit male headers.
 
-- ### 1.1.1 CM-0024 Development Kit with Gaslab Software
-CO2meter offers Free Gaslab Software that can be downloaded to a Windows 7 ot 10 computer.  Simply plug the USB Cable into your Gaslab Computer to read sensor values, calibrate sensors, log data, create spreadsheets and print graphs.
+## CM-200 Setup for GasLab with Senseair Sensors
+> Setup Instructions to use Senseair with GasLab or other terminal application through USB
 
-Download our FREE Gaslab Software from this link
->link
+### Switch Settings
+Leave the Sensor Configuration Jumpers as default.  Switch the I2C / UART Switch to the right over UART, and the USB - BLE / ARD - RPI switch to the left over USB - BLE.  As pictured below.
+![gaslab switch settings](./media/cm200-se11-usb-settings.jpg)
 
-- ### 1.1.2 CM-0024 Development Kit to Raspberry Pi with Python
-The CM-0024 Development Kit is compatible with many Raspberry Pi computers.
+### Connect to GasLab
+#### 1. Plug in the USB cable
+#### 2. Move the Power Switch Up so that it's towards the USB connector, a Red LED should emit
+#### 3. Launch GasLab
+#### 4. Select COM Port and Sensor
+#### 5. Click Connect
 
-Plug in the USB Cable into the Raspberry Pi and run the following Python Script.  
-No wiring, no soldering, no mistakes... just Plug & Play.
+## CM-200 Setup for Arduino and Raspberry Pi with UART
+> Setup instructions to use GSS Sensors with an Arduino or Raspberry Pi over UART
 
-```
-import serial
+### Switch Settings
+Leave the Sensor Configuartion Jumpers as default.  Switch the I2C / UART Switch to the right over UART, and the USB - BLE / ARD - RPI Switch to the right over ARD - RPI.  As pictured below.
+![arduino uart switches](./media/cm200-se11-arduino-uart.jpg)
 
-import time
+### Arduino Setup
+#### 1. If not already installed, download and install [Arduino IDE](https://www.arduino.cc/en/software)
+#### 1. Mount the CM-200 onto the Header Pins of an Arduino Uno or Arduino Mega
+#### 2. Power Arduino or CM-200 with USB cable
+#### 3. Download or Clone Repository
+#### 4. Naviagate to Arduino Project to run
+#### 5. Double click .ino file
+#### 6. Click on the Upload button in Arduino
 
-ser = serial.Serial("/dev/ttyUSB0",baudrate =9600,timeout = .5)
+### Raspberry Pi Setup
+#### 1. Mount the CM-200 onto the header pins of a Raspberry Pi Zero, or connect ribbon cable to Raspberry Pi SBC
+#### 2. Download or Clone Repository onto Raspberry Pi
+#### 3. Navigate to python code to run
+#### 4. Run python code
 
-print "K30 Development Kit to Raspberry Pi3\n"
-
-ser.flushInput()
-
-time.sleep(1)
-
-while True:
-
-    ser.flushInput()
-    ser.write("\xFE\x44\x00\x08\x02\x9F\x25")
-    time.sleep(1.9)
-    resp = ser.read(7)
-    high = ord(resp[3])
-    low = ord(resp[4])
-    co2 = (high*256) + low
-    print " CO2 = " +str(co2)
-    time.sleep(.1)
-```
-
-- ### 1.2 K30 Sensor UART wired to Raspberry Pi GPIO Pins.
-The K30 Sensor UART connections can be wired to Raspberry Pi GPIO Pins.
-
->image K30 UART GPIO RPi 
-
-- ### 1.2.1 Configuring the Raspberry Pi for UART on GPIO Pins.
-Perform the following instructions to activate UART on GPIO Pins.
-
->instructions to configure RPi UART/ enable GPIO pins
-
-Run the following Python code:
-
->UART GPIO python code
+## CM-200 Setup for Arduino with I2C
+> Setup instructions to use GSS Sensors with an Arduino over I2C
+>
+> ### Switch Settings
+Add a solder bridge over the I2C EN jumper.  Switch the I2C / UART Switch to the left over I2C, switch the USB - BLE / ARD - RPI switch to the right over ARD - RPI.  As pictured below.
+![i2c settings](./media/cm200-se11-i2c-settings.jpg)
