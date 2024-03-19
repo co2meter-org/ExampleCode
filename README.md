@@ -16,10 +16,10 @@ To download and use the repository and code, you can either download the zip or 
 
 ## Download Zip
 ### 1. Near the top right of the page, click on the green "Code" button
-![click code](./assets/code-button.png)
+<img src="./assets/code-button.png" alt="drawing" width="600"/>
 
 ### 2. Click on the "Download Zip" button in the popup
-![download](./assets/download-zip.png)
+<img src="./assets/download-zip.png" alt="drawing" width="400"/>
 
 ### 3. Extract the Zip file. The files can be extraced anywhere on a local PC including Downloads, Documents, or Desktop.
 
@@ -30,16 +30,16 @@ There are multiple ways to clone this repository.  This README will cover the mo
 ### 1. Download and Install [GitHub Desktop](https://desktop.github.com/)
 
 ### 2. Near the top right of the page, click on the green "Code" button
-![click code](./assets/code-button.png)
+<img src="./assets/code-button.png" alt="drawing" width="600"/>
 
 ### 3. Click on the Open with GitHub Desktop button in the options
-![download](./assets/download-zip.png)
+<img src="./assets/download-zip.png" alt="drawing" width="400"/>
 
 ### 4. Click on Open GitHub Desktop button in the popup
-![open](./assets/clone-open-desktop.png)
+<img src="./assets/clone-open-desktop.png" alt="drawing" width="400"/>
 
 ### 5. In GitHub Desktop, click the "Clone" button
-![clone](./assets/clone-button.png)
+<img src="./assets/clone-button.png" alt="drawing" width="400"/>
 
 ## Windows Git Bash
 ### 1. Download and install [Git Bash](https://gitforwindows.org/) for Windows
@@ -113,7 +113,8 @@ The CM-200 Sensor Development Board is a kit developed by CO2Meter to help custo
 
 ## Getting to know your CM-200 Sensor Development Kit
 ### Connector Side
-![CM-200 Top](./assets/CM-200_Back.png)
+<img src="./assets/CM-200_Back.png" alt="drawing" width="600"/>
+
 > The top of the CM-200 will have the electonics running the development kit, including the microcontroller and headers for Arduino and Raspberry Pi.
 
 #### 1. Arduino Shield Headers
@@ -158,7 +159,8 @@ UART can only be used from a single source.  To use UART with STM32WB over Bluet
 Some sensors have pin configurations to switch between I2C and UART, or to hold the Sensor in Enabled mode or be user controlled.  Those can be changed by making cuts or solder bridges on the pads.  There are also by default I2C Pull Up resistors, whic if using external I2C development kits that already have I2C Pull Ups, then a cut can be made to remove the Pull Ups.
 
 ### Sensor Side
-![CM-200 Top](./assets/CM-200_Front.png)
+<img src="./assets/CM-200_Front.png" alt="drawing" width="600"/>
+
 > The bottom of the CM-200 has sockets and pogo pins for the sensors, mounting hardware, and programming pins for the STM32WB
 
 #### 1. K30 Power and UART Pins
@@ -194,12 +196,12 @@ Designed for use with [TC2030-CTX-NL-STDC14](https://www.tag-connect.com/product
 ### 1. Download and Install the [GasLab Software](https://www.co2meter.com/pages/downloads)
 > https://www.co2meter.com/pages/downloads
 
-![GasLab Download](./assets/gaslab-download.png)
+<img src="./assets/gaslab-download.png" alt="drawing" width="600"/>
 
 ### 2. Exit the GasLab Software and Unplug the USB Cable
 
 ### 3. Start the GasLab Software. Select the port dropdown in the lower left corner.
-![GasLab Com Port](./assets/gaslab-com-port.png)
+<img src="./assets/gaslab-com-port.png" alt="drawing" width="400"/>
 
 ### 4. Plug the USB cable into your PC. A new COM Port number should appear.
 > If no COM Port appears, go to the [troubleshooting](#gaslab-troubleshooting) section
@@ -207,15 +209,15 @@ Designed for use with [TC2030-CTX-NL-STDC14](https://www.tag-connect.com/product
 ### 5. Select the new COM Port
 
 ### 6. Select your sensor model from the Product Dropdown list.
-![GasLab connect](./assets/gaslab-connect-buttons.png)
+<img src="./assets/gaslab-connect-buttons.png" alt="drawing" width="400"/>
 
 ### 7. Click Connect
-![GasLab-k30](./assets/gaslab-k30.png)
+<img src="./assets/gaslab-k30.png" alt="drawing" width="600"/>
 
 ### 8. Click any "Read" button to take a sensor reading.
 > See the [manual](https://cdn.shopify.com/s/files/1/0019/5952/files/Manual-GasLab.pdf?v=1683657836) for additional options or to begin data logging
 
-![GasLab Read Buttons](./assets/gaslab-read-buttons.png)
+<img src="./assets/gaslab-read-buttons.png" alt="drawing" width="400"/>
 
 ## GasLab Troubleshooting
 

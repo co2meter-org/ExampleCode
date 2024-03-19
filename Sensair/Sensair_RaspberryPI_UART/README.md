@@ -16,15 +16,15 @@
 ## CM-200 Setup
 ### Switch Settings
 Leave the Sensor Configuartion Jumpers as default.  Switch the I2C / UART Switch to the right over UART, and the USB - BLE / ARD - RPI Switch to the right over ARD - RPI.  As pictured below.
-![rpi uart switches](./media/cm200-se11-arduino-uart.jpg)
+<img src="./media/cm200-se11-arduino-uart.jpg" alt="drawing" width="450"/>
 
 ### Raspberry Pi
 CO2Meter recommends, for Raspberry Pi Zero, purchasing and soldering these [header pins](https://www.amazon.com/gp/product/B084Q4W1PW/ref=ox_sc_act_title_1?smid=A12R7FMO56ISX4&psc=1) to be able to stack on top of the CM-200
-![rpi on cm200](./media/cm200-rpi.jpg)
+<img src="./media/cm200-rpi.jpg" alt="drawing" width="450"/>
 
 ## Wiring without a CM-200
 
-![Rx -> Rx; Tx -> Tx](./media/wiring.png)
+<img src="./media/wiring.png" alt="drawing" width="450"/>
 
 ## Create and run your RPI3-K30 Project
    1. Select Menu -> Programming -> Geany
@@ -32,7 +32,7 @@ CO2Meter recommends, for Raspberry Pi Zero, purchasing and soldering these [head
    2. Select File -> Open -> pi -> AN137 -> K30
 
    3. Verify that you see:
-   ![Alt text](./media/geany.png)
+   <img src="./media/geany.png" alt="drawing" width="450"/>
 
    4. Select Build -> compile
 

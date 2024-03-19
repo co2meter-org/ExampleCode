@@ -11,7 +11,8 @@
 - Press-fit male header pins or M2.5 mounting screws
 - USB Type-C Cable
 
-![materials](./media/cm200-senseair-materials.jpg)
+<img src="./media/cm200-senseair-materials.jpg" alt="drawing" width="400"/>
+
 
 For K-Series sensors, use the mounting screws and align with the pogo pins.  For Senseair miniature series sensors, use the Press-Fit male headers.
 
@@ -20,7 +21,7 @@ For K-Series sensors, use the mounting screws and align with the pogo pins.  For
 
 ### Switch Settings
 Leave the Sensor Configuration Jumpers as default.  Switch the I2C / UART Switch to the right over UART, and the USB - BLE / ARD - RPI switch to the left over USB - BLE.  As pictured below.
-![gaslab switch settings](./media/cm200-se11-usb-settings.jpg)
+<img src="./media/cm200-se11-usb-settings.jpg" alt="drawing" width="400"/>
 
 ### Connect to GasLab
 #### 1. Plug in the USB cable
@@ -34,7 +35,7 @@ Leave the Sensor Configuration Jumpers as default.  Switch the I2C / UART Switch
 
 ### Switch Settings
 Leave the Sensor Configuartion Jumpers as default.  Switch the I2C / UART Switch to the right over UART, and the USB - BLE / ARD - RPI Switch to the right over ARD - RPI.  As pictured below.
-![arduino uart switches](./media/cm200-se11-arduino-uart.jpg)
+<img src="./media/cm200-se11-arduino-uart.jpg" alt="drawing" width="400"/>
 
 ### Arduino Setup
 #### 1. If not already installed, download and install [Arduino IDE](https://www.arduino.cc/en/software)
@@ -56,4 +57,4 @@ Leave the Sensor Configuartion Jumpers as default.  Switch the I2C / UART Switch
 >
 > ### Switch Settings
 Add a solder bridge over the I2C EN jumper.  Switch the I2C / UART Switch to the left over I2C, switch the USB - BLE / ARD - RPI switch to the right over ARD - RPI.  As pictured below.
-![i2c settings](./media/cm200-se11-i2c-settings.jpg)
+<img src="./media/cm200-se11-i2c-settings.jpg" alt="drawing" width="400"/>

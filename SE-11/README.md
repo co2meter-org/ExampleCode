@@ -13,17 +13,17 @@
 - USB Type-C Cable
 - Included 5-pin and 4-pin Press-Fit Headers
 
-![materials](./media/cm200-se11-materials.jpg)
+<img src="./media/cm200-se11-materials.jpg" alt="drawing" width="450"/>
 
 Use a fair amount of force to push the press-fit headers into the Sensor, then set them into their corresponding sockets.  It should look like the below image
-![s11 sensor](./media/cm200-se11-sensor.jpg)
+<img src="./media/cm200-se11-sensor.jpg" alt="drawing" width="450"/>
 
 ## CM-200 Setup for GasLab with Senseair Sunrise
 > Setup Instructions to use Senseair Sunrise with GasLab or other terminal application through USB
 
 ### Switch Settings
 Leave the Sensor Configuration Jumpers as default.  Switch the I2C / UART Switch to the right over UART, and the USB - BLE / ARD - RPI switch to the left over USB - BLE.  As pictured below.
-![gaslab switch settings](./media/cm200-se11-usb-settings.jpg)
+<img src="./media/cm200-se11-usb-settings.jpg" alt="drawing" width="450"/>
 
 ### Connect to GasLab
 #### 1. Plug in the USB cable
@@ -37,7 +37,7 @@ Leave the Sensor Configuration Jumpers as default.  Switch the I2C / UART Switch
 
 ### Switch Settings
 Leave the Sensor Configuartion Jumpers as default.  Switch the I2C / UART Switch to the right over UART, and the USB - BLE / ARD - RPI Switch to the right over ARD - RPI.  As pictured below.
-![arduino uart switches](./media/cm200-se11-arduino-uart.jpg)
+<img src="./media/cm200-se11-arduino-uart.jpg" alt="drawing" width="450"/>
 
 ### Arduino Setup
 #### 1. If not already installed, download and install [Arduino IDE](https://www.arduino.cc/en/software)
@@ -59,11 +59,11 @@ Leave the Sensor Configuartion Jumpers as default.  Switch the I2C / UART Switch
 >
 > ### Switch Settings
 Add a solder bridge over the I2C EN jumper.  Switch the I2C / UART Switch to the left over I2C, switch the USB - BLE / ARD - RPI switch to the right over ARD - RPI.  As pictured below.
-![i2c settings](./media/cm200-se11-i2c-settings.jpg)
+<img src="./media/cm200-se11-i2c-settings.jpg" alt="drawing" width="450"/>
 
 # S11 Development Kit
 
-  <img src="./media/plugged_in.jpg" width="800">
+<img src="./media/plugged_in.jpg" width="800">
 
 ## Section 1: Learning About Your Development Kit
 
@@ -91,12 +91,12 @@ There are four main connectors on the S11 Development Kit, each serving a differ
   - 1.1.2 USB Connector
     >The Micro USB Connector allows you to connect your Development Kit to your PC and appears as an FTDI Cable.  You can then use your favorite application(GasLab, TeraTerm, etc.) to communicate with the S11 Sensor via UART.  
 
-    <img src="./media/usb_conn.jpg" width="800">
+    <img src="./media/usb_conn.jpg" width="400">
 
   - 1.1.3 Microcontroller and GasBox Connector
     > 10-pin breakout connector to easily connect your S11 Sensor to the GasBox, Arduino, Raspberry Pi, or other UART / I2C microcontroller.
 
-    <img src="./media/connector.jpg" width="800">
+    <img src="./media/connector.jpg" width="400">
 
     1. Ground
     2. Enable
@@ -117,28 +117,28 @@ There are four main connectors on the S11 Development Kit, each serving a differ
     * 5: VDDIO - The S11 Sensor requires a reference voltage for the Communications.  To use the same voltage as what is supplied to power the S11 Sensor, keep the switch function up, to use a different IO Voltage supplied on the 10-pin Connector, push the switch down.  For standard USB Connection, leave this switch function up.
     * 6: Enable - The S11 Sensor has the ability to turn on and off the Sensor element to save power.  To have the Sensor always enabled and taking measurements, slide the switch function up.  If you will have a microcontroller connected to the 10-pin microcontroller connector and enabling and disabling the sensor, slide the switch function down.
 
-  <img src="./media/switch_all_up.jpg" width="800">
+  <img src="./media/switch_all_up.jpg" width="600">
 
   - 1.2.2 Typical Switch Settings
     - USB
       > To use via USB UART with GasLab or any other terminal application, keep all slide switch functions in the up position
 
-  <img src="./media/switch_all_up.jpg" width="800">
+  <img src="./media/switch_all_up.jpg" width="600">
 
     - Simple Microcontroller UART
       > To simply connect to a microcontroller via UART, slide switch functions 1 and 2 down, and leave the rest of the switch functions in the up position
 
-  <img src="./media/pinout_uart.jpg" width="800">
+  <img src="./media/pinout_uart.jpg" width="600">
 
     - Simple Microcontroller I<sup>2</sup>C with no Pull Up Circuit
       > To attach to a microcontroller via I<sup>2</sup>C, we've added the convenience of 4.7kOhm pull up resistors.  This way you can connect your I<sup>2</sup>C wiring directly without a circuit in between.  To use this function, slide switch functions 1, 2, 3, and 4 to the down position, leave switch functions 5 and 6 in the up position
 
-  <img src="./media/switch_i2c.jpg" width="800">
+  <img src="./media/switch_i2c.jpg" width="600">
 
     - Full Microcontroller UART Support
       > To attach a microcontroller that will control the S11 Sensor being integrated into a system, slide switch functions 1, 2, 5, and 6 to the down position, and slide switch functions 3 and 4 to the up position
 
-  <img src="./media/uc_switch.jpg" width="800">
+  <img src="./media/uc_switch.jpg" width="600">
 
 
 ## Section 2: Connecting to GasLab with USB
@@ -146,7 +146,7 @@ There are four main connectors on the S11 Development Kit, each serving a differ
 1. Connect a micro USB Cable from your PC to the Development Kit
 > Ensure the Switch Setting are Correct.  Refer to section 1.2.2 for more help
 
-  <img src="./media/plugged_in.jpg" width="800">
+  <img src="./media/plugged_in.jpg" width="600">
 
 2. Open GasLab on your PC, select the COM Port, use FTDI as the Kit, and select Senseair / S-11 for your Series / Model
 
