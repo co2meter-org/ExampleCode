@@ -13,11 +13,34 @@
 */
 int co2Addr = 0x68;
 // This is the default address of the CO2 sensor, 7bits shifted left.
+
+// if using a CO2Meter CM-200 Sensor Development Board, set this to 1 if you want the LEDs to flash
+// if you're wiring directly to the sensor, set this to 0
+#define CM200 1
+
+#if CM200
+#define GREEN_LED 4
+#define BLUE_LED 5
+#define RED_LED 6
+
+uint8_t ind = GREEN_LED;
+#endif
+
 void setup() {
   Serial.begin(9600);
   Wire.begin ();
   pinMode(13, OUTPUT); // address of the Arduino LED indicator
   Serial.println("Application Note AN-102: Interface Arduino to K-30");
+
+#if CM200
+  pinMode(GREEN_LED, OUTPUT);
+  pinMode(BLUE_LED, OUTPUT);
+  pinMode(RED_LED, OUTPUT);
+
+  digitalWrite(GREEN_LED, LOW);
+  digitalWrite(BLUE_LED, LOW);
+  digitalWrite(RED_LED, LOW);
+#endif
 }
 ///////////////////////////////////////////////////////////////////
 // Function : int readCO2()
@@ -26,8 +49,7 @@ void setup() {
 // - LED is connected to IO pin 13
 // - CO2 sensor address is defined in co2_addr
 ///////////////////////////////////////////////////////////////////
-int readCO2()
-{
+int readCO2() {
   int co2_value = 0;  // We will store the CO2 value inside this variable.
 
   digitalWrite(13, HIGH);  // turn on LED
@@ -122,6 +144,17 @@ int readCO2()
   }
 }
 void loop() {
+#if CM200
+  // if using a CM-200 we can cycle through the LEDs to high and low so we can see that we're in the loop
+  if (digitalRead(ind) == HIGH)
+    digitalWrite(ind, LOW);
+  else
+    digitalWrite(ind, HIGH);
+
+  ind++;
+  if (ind > RED_LED)
+    ind = GREEN_LED;
+#endif
 
   int co2Value = readCO2();
   if (co2Value > 0)
