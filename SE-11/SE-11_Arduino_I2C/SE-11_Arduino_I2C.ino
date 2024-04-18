@@ -3,17 +3,17 @@
 
 char FIND_ADDRESS = 'F';
 char READ_CO2 = 'R';
-byte address = 0x68;
+uint8_t address = 0x68;
 
 void setup() {
   // put your setup code here, to run once:
   Wire.begin();
   Wire.setClock(10000);
-  Serial.begin(115200);
+  Serial.begin(9600);
   Serial.println("Type F to find all devices on I2C bus and type R to read CO2 from S-11");
 }
 
-void sendDataAndReadToAddress(byte reg, byte address, int bufferSize, int readCount) {
+void sendDataAndReadToAddress(byte reg, uint8_t address, uint8_t bufferSize, int readCount) {
   Wire.beginTransmission(address);  
   for (int k = 0; k < bufferSize; k++) {
     Wire.write(reg);    
@@ -26,7 +26,11 @@ void sendDataAndReadToAddress(byte reg, byte address, int bufferSize, int readCo
 
   delay(10);
   int nBytes = Wire.available();
-  byte buff[nBytes];
+  byte buff[nBytes] = { 0 };
+
+  Serial.print("Num bytes on line");
+  Serial.print(nBytes);
+  Serial.println("");
 
   int i = 0;
   while (Wire.peek() != -1) {

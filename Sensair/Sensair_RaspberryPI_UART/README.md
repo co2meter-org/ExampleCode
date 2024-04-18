@@ -22,6 +22,20 @@ Leave the Sensor Configuartion Jumpers as default.  Switch the I2C / UART Switch
 CO2Meter recommends, for Raspberry Pi Zero, purchasing and soldering these [header pins](https://www.amazon.com/gp/product/B084Q4W1PW/ref=ox_sc_act_title_1?smid=A12R7FMO56ISX4&psc=1) to be able to stack on top of the CM-200
 <img src="./media/cm200-rpi.jpg" alt="drawing" width="450"/>
 
+Additionally, with a Raspberry Pi SBC, CO2Meter recommends a ribbon cable and / or breakout board such as [this](https://www.amazon.com/gp/product/B08D3S6FGH/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
+
+Ensure that the Serial Port is available.  To enable the Serial Port, go to the Raspberry Pi menu at the top left of the Desktop, go to Preferences, then go to Raspberry Pi Configuration.  From the Configuration Settings, go to the Interfaces tab and ensure that the settings are enabled as below:
+<img src="./media/rpi_enable_serial.png" alt="drawing" width="450"/>
+
+After a restart, double check that the serial TTYS0 is available by opening a terminal and typing:
+```
+ls /dev/tty*
+```
+
+and ttyS0 should appear as below:
+<img src="./media/rpi_ttys0.png" alt="drawing" width="450"/>
+
+
 ## Wiring without a CM-200
 
 <img src="./media/wiring.png" alt="drawing" width="450"/>
