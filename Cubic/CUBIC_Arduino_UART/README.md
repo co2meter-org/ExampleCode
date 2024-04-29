@@ -1,4 +1,4 @@
-# Senseair Arduino UART
+# CUBIC Arduino UART
 
 
 ## CM-200 Setup
