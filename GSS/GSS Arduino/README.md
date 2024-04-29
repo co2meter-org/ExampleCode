@@ -1,24 +1,6 @@
-### Interface Arduino with GSS Sensors
-- CozIR-A 2,000 [GC-0010](https://www.co2meter.com/collections/sensors/products/cozir-2000-ppm-co2-sensor)
-- CozIR-A 5,000 [GC-0011](https://www.co2meter.com/collections/sensors/products/cozir-ambient-5000-ppm-co2-sensor)
-- CozIR-A 10,000 [GC-0012](https://www.co2meter.com/collections/sensors/products/cozir-ambient-10000-ppm-co2-sensor)
-- CozIR-A 2,000RHT [GC-0020](https://www.co2meter.com/collections/sensors/products/cozir-co2-temperature-humidity-sensor)
-- CozIR-A 10,000RHT [GC-0022](https://www.co2meter.com/collections/sensors/products/cozir-10000-ppm-co2-temperature-humidity-sensor)
-- GC-0006 [GC-0006](https://www.co2meter.com/collections/sensors/products/cozir-wrv-20-percent-co2-sensor)
-- GC-0007 [GC-0007](https://www.co2meter.com/collections/sensors/products/cozir-wr-60-percent-co2-sensor)
-- GC-0015 [GC-0015](https://www.co2meter.com/collections/sensors/products/cozir-wr-5-percent-co2-sensor)
-- GC-0016 [GC-0016](https://www.co2meter.com/collections/sensors/products/cozir-100-percent-co2-sensor)
-- GC-0017 [GC-0017](https://www.co2meter.com/collections/sensors/products/sprintir-wr-20-pct-co2-sensor)
-- GC-0018 [GC-0018](https://www.co2meter.com/collections/sensors/products/sprintir-100-percent-co2-sensor)
-- Cozir-LP [GC-0027](https://www.co2meter.com/collections/sensors/products/cozir-lp-ambient-air-co2-sensor)
-- Cozir-LP2 [GC-0034](https://www.co2meter.com/collections/sensors/products/copy-of-cozir-lp-miniature-5-000ppm-co2-sensor)
-- SprintIR-6S-5 [GC-0028](https://www.co2meter.com/collections/sensors/products/sprintir6s-5-co2-smart-sensor)
-- SprintIR-6S-20 [GC-0029](https://www.co2meter.com/collections/sensors/products/sprintir6s-20-co2-smart-sensor)
-- SprintIR-6S-100 [GC-0030](https://www.co2meter.com/collections/sensors/products/sprintir6s-100-co2-smart-sensor)
-- ExplorIR-M-5 [GC-0024](https://www.co2meter.com/collections/sensors/products/minir-co2-sensor)
-- ExplorIR-M-20 [GC-0026](https://www.co2meter.com/collections/sensors/products/explorir-20-co2-smart-led-sensor)
-- ExplorIR-M-100 [GC-0025](https://www.co2meter.com/collections/sensors/products/explorir-100-pct-co2-sensor)
-
+### Interface Arduino with SST Sensors
+- SST LuminOx 25% [LOX-02](https://www.co2meter.com/collections/oxygen-sensors/products/25-percent-oxygen-sensor)
+- SST LuminOx 25% Flow Through [LOX-O2-F](https://www.co2meter.com/collections/oxygen-sensors/products/uv-flux-25-oxygen-smart-flow-through-sensor)
 
 ## Creating an Arduino Project
 
