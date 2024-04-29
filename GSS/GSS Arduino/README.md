@@ -19,7 +19,6 @@
 - ExplorIR-M-20 [GC-0026](https://www.co2meter.com/collections/sensors/products/explorir-20-co2-smart-led-sensor)
 - ExplorIR-M-100 [GC-0025](https://www.co2meter.com/collections/sensors/products/explorir-100-pct-co2-sensor)
 
-
 ## Creating an Arduino Project
 
 1. Wire up your device as shown:
