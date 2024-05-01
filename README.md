@@ -104,10 +104,9 @@ The CM-200 Sensor Development Board is a kit developed by CO2Meter to help custo
 - [ExplorIR®-M 20% CO2 Sensor](https://www.co2meter.com/collections/sensors/products/explorir-20-co2-smart-led-sensor)
 - [ExplorIR®-M 100% CO2 Sensor](https://www.co2meter.com/collections/sensors/products/explorir-100-pct-co2-sensor)
 
-### LP Sensors
-- [CozIR®-LP Miniature 5,000ppm NDIR CO2 Sensor](https://www.co2meter.com/collections/sensors/products/cozir-lp-ambient-air-co2-sensor)
-- [CozIR®-LP2 5000ppm CO2 Sensor](https://www.co2meter.com/collections/sensors/products/copy-of-cozir-lp-miniature-5-000ppm-co2-sensor)
-- [CozIR®-Blink Sensor](https://www.co2meter.com/collections/sensors/products/gss-co2meter-cozir-blink-co2-sensor)
+### Cubic
+- [CM1106H-NS NDIR CO2 Sensor](https://www.co2meter.com/collections/1-percent-co2-sensor/products/ndir-high-accuracy-co2-sensor)
+- [CM1106SL-N Super Low Power NDIR CO2 Sensor](https://www.co2meter.com/products/cm-1106sl-n-low-power-ndir-co2-sensor)
 
 
 
