@@ -1,3 +1,6 @@
 [submodule "SE-11/Sunrise-Examples---Arduino"]
 	path = SE-11/Sunrise-Examples---Arduino
 	url = https://github.com/Senseair-AB/Sunrise-Examples---Arduino
+[submodule "STM32/CM-200_SensorDevKit"]
+	path = STM32/CM-200_SensorDevKit
+	url = https://github.com/co2meter-org/CM-200_SensorDevKit.git
