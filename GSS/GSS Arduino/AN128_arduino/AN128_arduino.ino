@@ -35,8 +35,8 @@ uint8_t ind = GREEN_LED;
 
 // if you want the sensor to stream set this to 1
 // if you want to use the sensor in polling mode, set this to 0 and set the delay_ms to desired delay time
-#define STREAMING 1
-const int delay_ms = 500;
+#define STREAMING 0
+const int delay_ms = 5000;
 
 //int co2 = 0;
 double multiplier = 1; // 1 for 2% =20000 PPM, 10 for 20% = 200,000 PPM

@@ -26,6 +26,8 @@ int co2Addr = 0x68;
 uint8_t ind = GREEN_LED;
 #endif
 
+#define DEBUG 0
+
 void setup() {
   Serial.begin(9600);
   Wire.begin ();
@@ -104,8 +106,20 @@ int readCO2() {
   while (Wire.available())
   {
     buffer[i] = Wire.read();
+#if DEBUG
+// print the output of the sensor
+    Serial.println("Sensor Response: ");
+    Serial.print("0x");
+    Serial.print(buffer[i], HEX);
+    Serial.print(" ");
+#endif
     i++;
   }
+
+#if DEBUG
+// adding in a line feed to make it more readable
+  Serial.println("");
+#endif
 
   ///////////////////////
   /* End Read Sequence */
