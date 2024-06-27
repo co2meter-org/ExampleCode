@@ -60,7 +60,7 @@ git clone --recursive https://github.com/co2meter-org/ExampleCode.git
 ```
 
 # CM-200 Sensor Development Board
-The CM-200 Sensor Development Board is a kit developed by CO2Meter to help customers, hackers, and students to go from concept to product as quickly as possible.  We've provided a PCB that can interface with our free [GasLab](https://www.co2meter.com/pages/downloads) or any terminal application to evaluate sensors and view the communication protocols.  Using the CM-200 as an Arduino Shield and the example code provided in this repository can rapidly get a prototype running for interfacing our most popular sensors with Arduino Uno and Arduino Mega.  Also available, use the CM-200 as a Raspberry Pi Hat to prototype using the Raspberry Pi ecosystem.  Finally, users can also develop production ready code with the onboard STM32WB55, with available BLE, USB, User LEDs, User Buttons, and multiple communication protocols.
+The CM-200 Sensor Development Board is a kit developed by CO2Meter to help customers, hobbyists, and students to go from concept to product as quickly as possible.  We've provided a PCB that can interface with our free [GasLab](https://www.co2meter.com/pages/downloads) or any terminal application to evaluate sensors and view the communication protocols.  Using the CM-200 as an Arduino Shield and the example code provided in this repository can rapidly get a prototype running for interfacing our most popular sensors with Arduino Uno and Arduino Mega.  Also available, use the CM-200 as a Raspberry Pi Hat to prototype using the Raspberry Pi ecosystem.  Finally, users can also develop production ready code with the onboard STM32WB55, with available BLE, USB, User LEDs, User Buttons, and multiple communication protocols.
 
 ## Compatible Sensors
 ### K-Series CO2 Sensors
@@ -74,20 +74,13 @@ The CM-200 Sensor Development Board is a kit developed by CO2Meter to help custo
 - [006-0-0008 Senseair Sunrise HVAC CO2 Sensor](https://www.co2meter.com/collections/sensors/products/senseair-sunrise-co2-sensor)
 - [006-0-0007 Senseair Sunrise CO2 Sensor](https://www.co2meter.com/collections/sensors/products/006-0-0007-senseair-sunrise-co2-sensor)
 - [009-4-0001 Senseair Sunlight Refrigerant R32 Sensor](https://www.co2meter.com/collections/sensors/products/009-4-0001-senseair-sunlight-refrigerant-r32-sensor?variant=42820894064838)
-- 
 
 ### Senseair Miniature Sensors
-> If marked with a * request no pins.  May need to purchase longer pin headers
 - [004-0-0013 S8 Miniature 10,000ppm CO2 Sensor](https://www.co2meter.com/collections/sensors/products/s8-miniature-co2-sensor)
 - [004-0-0071 S8 Miniature 5% CO2 Sensor](https://www.co2meter.com/collections/sensors/products/s8-miniature-5-co2-sensor)
 - [004-0-0010 Senseair Commercial CO2 Sensor](https://www.co2meter.com/collections/sensors/products/004-0-0010-senseair-s8-commercial-co2-sensor)
 - [004-0-0017 S8 Alarm 5% CO2 Sensor](https://www.co2meter.com/collections/sensors/products/004-0-0017-s8-alarm-5-co2-sensor)
 - [004-0-0050 Senseair S8 2% CO2 Sensor](https://www.co2meter.com/collections/sensors/products/004-0-0050-senseair-2-percent-co2-sensor)
-- [*CM1106H-NS NDIR CO2 Sensor](https://www.co2meter.com/collections/sensors/products/ndir-high-accuracy-co2-sensor)
-- [*CM1106SL-N Super Low Power NDIR CO2 Sensor](https://www.co2meter.com/collections/sensors/products/cm-1106sl-n-low-power-ndir-co2-sensor)
-- [*CM1107N NDIR Dual Channel CO2 Sensor](https://www.co2meter.com/collections/sensors/products/ndir-dual-beam-co2-sensor-module)
-- [*CM1107H 5% CO2 Dual Channel NDIR CO2 Sensor](https://www.co2meter.com/collections/sensors/products/cm1107h-co2-safety-gas-sensor)
-- [*CM1109 Dual IR Source NDIR CO2 Sensor](https://www.co2meter.com/collections/sensors/products/cm1109-dual-ir-source-ndir-co2-sensor)
 
 ### LuminOx Sensors
 - [LOX-O2 UV Flux 25% Oxygen Smart Sensor](https://www.co2meter.com/collections/sensors/products/25-percent-oxygen-sensor)
@@ -105,9 +98,14 @@ The CM-200 Sensor Development Board is a kit developed by CO2Meter to help custo
 - [ExplorIR®-M 100% CO2 Sensor](https://www.co2meter.com/collections/sensors/products/explorir-100-pct-co2-sensor)
 
 ### Cubic
+> If marked with a * request no pins.  May need to purchase longer pin headers
 - [CM1106H-NS NDIR CO2 Sensor](https://www.co2meter.com/collections/1-percent-co2-sensor/products/ndir-high-accuracy-co2-sensor)
 - [CM1106SL-N Super Low Power NDIR CO2 Sensor](https://www.co2meter.com/products/cm-1106sl-n-low-power-ndir-co2-sensor)
-
+- [*CM1106H-NS NDIR CO2 Sensor](https://www.co2meter.com/collections/sensors/products/ndir-high-accuracy-co2-sensor)
+- [*CM1106SL-N Super Low Power NDIR CO2 Sensor](https://www.co2meter.com/collections/sensors/products/cm-1106sl-n-low-power-ndir-co2-sensor)
+- [*CM1107N NDIR Dual Channel CO2 Sensor](https://www.co2meter.com/collections/sensors/products/ndir-dual-beam-co2-sensor-module)
+- [*CM1107H 5% CO2 Dual Channel NDIR CO2 Sensor](https://www.co2meter.com/collections/sensors/products/cm1107h-co2-safety-gas-sensor)
+- [*CM1109 Dual IR Source NDIR CO2 Sensor](https://www.co2meter.com/collections/sensors/products/cm1109-dual-ir-source-ndir-co2-sensor)
 
 
 ## Getting to know your CM-200 Sensor Development Kit
