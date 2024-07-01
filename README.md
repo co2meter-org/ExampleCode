@@ -99,8 +99,6 @@ The CM-200 Sensor Development Board is a kit developed by CO2Meter to help custo
 
 ### Cubic
 > If marked with a * request no pins.  May need to purchase longer pin headers
-- [CM1106H-NS NDIR CO2 Sensor](https://www.co2meter.com/collections/1-percent-co2-sensor/products/ndir-high-accuracy-co2-sensor)
-- [CM1106SL-N Super Low Power NDIR CO2 Sensor](https://www.co2meter.com/products/cm-1106sl-n-low-power-ndir-co2-sensor)
 - [*CM1106H-NS NDIR CO2 Sensor](https://www.co2meter.com/collections/sensors/products/ndir-high-accuracy-co2-sensor)
 - [*CM1106SL-N Super Low Power NDIR CO2 Sensor](https://www.co2meter.com/collections/sensors/products/cm-1106sl-n-low-power-ndir-co2-sensor)
 - [*CM1107N NDIR Dual Channel CO2 Sensor](https://www.co2meter.com/collections/sensors/products/ndir-dual-beam-co2-sensor-module)
