@@ -3,11 +3,11 @@ import serial
 import time
 
 ser = serial.Serial("/dev/ttyS0")
-print("Python progam to run a Cozir Sensor\n")
+print("Python progam to run a SST Sensor\n")
 ser.write("M 1\r\n".encode()) # set operating mode to polling
 # \r\n is CR and LF
-ser.flushInput()
 time.sleep(1)
+ser.flushInput()
 
 while True:
     ser.write("%\r\n".encode())
